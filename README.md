@@ -136,21 +136,22 @@ Am Ende müssen im Git-Verlauf **Beiträge von beiden Personen** sichtbar sein.
 
 ## 0. Auf EIN gemeinsames Remote Repository einigen!
 
-Gemeinsames Team-Repository erstellen
 Ihr arbeitet zu zweit, benötigt aber ein gemeinsames Remote-Repository, auf das beide schreiben können.
 
-Person A
+**Person A**  
 1. Öffnet das bereitgestellte Starter-Repository auf GitHub.
 2. Klickt auf Fork und erstellt einen Fork im eigenen GitHub-Account.
 3. Öffnet im neuen Fork Settings → Collaborators → Add people.
-4. Fügt Person B über den GitHub-Benutzernamen als Collaborator hinzu.
-Person B
+4. Fügt **Person B** über den GitHub-Benutzernamen als Collaborator hinzu.
+
+**Person B**  
 5. Akzeptiert die GitHub-Einladung.
+
 Danach verwenden beide Personen den Fork von Person A als gemeinsames Team-Repository.
 
 Beide öffnen in VS Code:
 
-Command Palette → Git: Clone
+**Command Palette → Git: Clone**
 
 und klonen dieselbe URL, zum Beispiel:
 ```bash
@@ -162,8 +163,10 @@ Danach öffnen beide den geklonten Ordner in VS Code.
 Kontrolliert gemeinsam auf GitHub, dass ihr wirklich im selben Fork arbeitet.
 
 Ab jetzt gilt:
+```bash
 gemeinsamer Fork auf GitHub = Remote-Repository des Teams
-eigener Rechner            = eigener lokaler Clone
+eigener Rechner             = eigener lokaler Clone
+```
 
 Beide arbeiten lokal in ihrem eigenen Clone. Änderungen werden erst durch Commit + Push zum gemeinsamen GitHub-Repository übertragen. Änderungen der anderen Person erscheinen erst nach Pull im eigenen lokalen Clone.
 
