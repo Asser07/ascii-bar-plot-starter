@@ -275,7 +275,7 @@ Auf GitHub:
 
 1. Repository öffnen.
 2. **Compare & pull request** auswählen.
-3. PR von `setup/python-project` nach `main` erstellen.
+3. Pull Request von `setup/python-project` nach `main` erstellen. **ACHTUNG**: Dazu das **eigene** Remote-Repository auswählen, nicht das ursprüngliche ZDDduesseldorf Repository!
 4. **Person B** liest die Änderungen.
 5. Person B prüft besonders `pyproject.toml` und `.gitignore`.
 6. PR mergen.
