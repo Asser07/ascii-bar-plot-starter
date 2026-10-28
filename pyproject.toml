@@ -3,10 +3,13 @@ name = "ascii-barchart"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+setup/python-project
 authors = [
     { name = "Mo00963", email = "alshemalimohamad@gmail.com" }
 ]
-requires-python = ">=3.13"
+
+requires-python = ">=3.14"
+main
 dependencies = [
     "rich>=15.0.0",
 ]
